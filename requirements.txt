@@ -1,0 +1,8 @@
+# Camera tracking and interactive voice avatar.
+# These are direct dependencies; versions are not locked from a verified environment.
+numpy
+opencv-python
+mediapipe
+openai
+sounddevice
+soundfile

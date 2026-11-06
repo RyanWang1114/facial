@@ -1,0 +1,6 @@
+# Optional FER2013 training and neural-network camera demos.
+-r requirements.txt
+torch
+torchvision
+Pillow
+matplotlib

@@ -1,0 +1,47 @@
+# Python and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Downloaded/trained models and datasets
+models/
+archive*/
+data/
+fer2013/
+FER2013/
+*.pth
+*.pt
+*.onnx
+*.task
+*.h5
+*.npy
+*.npz
+
+# Local character assets, Blender backups, recordings
+*.blend
+*.blend[0-9]*
+*.vrm
+*.fbx
+*.glb
+*.gltf
+*.wav
+*.mp3
+*.mp4
+*.avi
+
+# Runtime state
+.agent_speaking
+latest_state.json
+*.log
